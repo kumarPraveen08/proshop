@@ -1,0 +1,37 @@
+{
+  "name": "proshop",
+  "version": "0.0.1",
+  "description": "proshop api server with mern",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumarPraveen08/proshop.git"
+  },
+  "keywords": [
+    "store",
+    "ecommerce",
+    "mern",
+    "proshop"
+  ],
+  "author": "Praveen Prajapati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumarPraveen08/proshop/issues"
+  },
+  "homepage": "https://github.com/kumarPraveen08/proshop#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "dotenv": "^16.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
