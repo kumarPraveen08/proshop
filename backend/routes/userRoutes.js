@@ -14,7 +14,6 @@ import {
 
 const router = express.Router();
 
-router;
 router.post("/login", authUser);
 router.post("/logout", logoutUser);
 router
